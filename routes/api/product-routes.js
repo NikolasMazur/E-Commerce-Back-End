@@ -13,8 +13,8 @@ router.get('/', async (req, res) => {
           attributes: ['category_name']
         },
         { 
-          model: Tag, through: ProductTag, as: 'product_tags',
-          attributes: ['tag_name']
+          model: Tag, through: ProductTag, as: 'tags',
+          attributes: ['id']
         },
       ],
     });
@@ -36,7 +36,7 @@ router.get('/:id', async (req, res) => {
     const productData = await Product.findByPk(req.params.id, {
       include: [
         { model: Category},
-        { model: Tag, through: ProductTag, as: 'product_tags' },
+        { model: Tag, through: ProductTag, as: 'tags' },
       ],
     });
 
@@ -84,7 +84,7 @@ router.post('/', async (req, res) => {
     });
 });
 
-// update product
+// update product (currently non-functional)
 router.put('/:id', async (req, res) => {
   // update product data
   Product.update(req.body, {
