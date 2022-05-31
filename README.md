@@ -17,7 +17,7 @@ This project was built with NodeJS, Sequilize, Router, and MySQL to provide a ba
 8. Type `npm run seed`
 9. Type `node server.js`
 
-![](./assets/placeholder.gif)
+![](./assets/e-commerce_backend.gif)
 
 ## Questions
 For additional information you can reach out at the GitHub account "NikolasMazur".
@@ -25,4 +25,3 @@ For additional information you can reach out at the GitHub account "NikolasMazur
 ## To-do
 As of right now the application is missing two components.
 1. Fix products `put`
-2. Record video showing functionality
