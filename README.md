@@ -17,6 +17,7 @@ This project was built with NodeJS, Sequilize, Router, and MySQL to provide a ba
 8. Type `npm run seed`
 9. Type `node server.js`
 
+The video below shows testing of various methods for manipulating the SQL server.
 ![](./assets/e-commerce_backend.gif)
 
 ## Questions
