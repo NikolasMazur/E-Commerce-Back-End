@@ -18,7 +18,7 @@ This project was built with NodeJS, Sequilize, Router, and MySQL to provide a ba
 9. Type `node server.js`
 
 The video below shows testing of various methods for manipulating the SQL server.
-![](./assets/e-commerce_backend.gif)
+![](./assets/e-commerce-backend.gif)
 
 ## Questions
 For additional information you can reach out at the GitHub account "NikolasMazur".
